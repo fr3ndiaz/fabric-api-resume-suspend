@@ -122,7 +122,7 @@ def manage_capacity(myTimer: func.TimerRequest):
         print("Apagando la capacidad...")
         # Llamada a la API para apagar
 ```
-
+Un ejemplo de más opciones para CRON: https://arminreiter.com/2017/02/azure-functions-time-trigger-cron-cheat-sheet/
 ## Uso de variables de entorno en Azure Functions
 
 Para evitar **hardcodear** valores sensibles en el código, utilizamos **variables de entorno** en Azure. Estas variables se configuran en **Application Settings** dentro del **Portal de Azure** y se acceden mediante `os.getenv()` en Python.
